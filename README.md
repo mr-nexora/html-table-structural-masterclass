@@ -1,3 +1,17 @@
+---
+⚖️ LICENSE: MIT License | 🏷️ COPYRIGHT: (c) 2026 T.M.S.U. Thennakoon
+---
+
+# 📊 Pure HTML Table Structural Masterclass
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Year](https://img.shields.io/badge/Year-2026-success.svg)]()
+[![Developer](https://img.shields.io/badge/Developer-Sahan%20Udara-orange.svg)]()
+
+> ### 📜 Copyright Notice
+> **Copyright (c) 2026 T.M.S.U. Thennakoon (Sahan Udara)** > All rights reserved. This repository and its core native source code are fully open-source under the MIT License guidelines. You are officially authorized to use, fork, modify, and reference this material for academic checkouts, software engineering portfolios, and structural assignments.
+
+---
 # 📊 Pure HTML Table Structural Masterclass
 
 Welcome to the **HTML Table Structural Masterclass**! This repository features a comprehensive curation of **20 distinct, industry-relevant table architectures** designed exclusively using pure, native HTML semantic tags and legacy presentation attributes (`colspan`, `rowspan`, `bgcolor`, `cellpadding`, `cellspacing`).
