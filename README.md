@@ -5,7 +5,6 @@ author: T.M.S.U. Thennakoon (Sahan Udara)
 copyright: "Copyright (c) 2026 T.M.S.U. Thennakoon (Sahan Udara). Open for academic and personal learning reference."
 linkedin: https://www.linkedin.com/in/mrnexora/
 github: https://github.com/mr-nexora/
-credits: "Content and concepts inspired and learned via W3Schools (https://www.w3schools.com/html/)"
 ---
 
 # 📊 Pure HTML Table Structural Masterclass
