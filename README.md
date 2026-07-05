@@ -11,9 +11,7 @@ github: https://github.com/mr-nexora/
 
 > ### 📝 Project Overview
 > This repository features a comprehensive curation of **20 distinct, structurally complex HTML table layouts** designed exclusively using pure semantic tags and traditional presentation attributes. It stands as a hands-on learning directory compiled during my undergraduate studies.
-
 ---
-# 📊 Pure HTML Table Structural Masterclass
 
 Welcome to the **HTML Table Structural Masterclass**! This repository features a comprehensive curation of **20 distinct, industry-relevant table architectures** designed exclusively using pure, native HTML semantic tags and legacy presentation attributes (`colspan`, `rowspan`, `bgcolor`, `cellpadding`, `cellspacing`).
 
