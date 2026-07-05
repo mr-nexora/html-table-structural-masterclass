@@ -1,15 +1,17 @@
 ---
-⚖️ LICENSE: MIT License | 🏷️ COPYRIGHT: (c) 2026 T.M.S.U. Thennakoon
+title: HTML Table Structural Masterclass
+project: HTML Learning Portfolio for Undergraduate Computer Science Studies
+author: T.M.S.U. Thennakoon (Sahan Udara)
+copyright: "Copyright (c) 2026 T.M.S.U. Thennakoon (Sahan Udara). Open for academic and personal learning reference."
+linkedin: https://www.linkedin.com/in/mrnexora/
+github: https://github.com/mr-nexora/
+credits: "Content and concepts inspired and learned via W3Schools (https://www.w3schools.com/html/)"
 ---
 
 # 📊 Pure HTML Table Structural Masterclass
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Year](https://img.shields.io/badge/Year-2026-success.svg)]()
-[![Developer](https://img.shields.io/badge/Developer-Sahan%20Udara-orange.svg)]()
-
-> ### 📜 Copyright Notice
-> **Copyright (c) 2026 T.M.S.U. Thennakoon (Sahan Udara)** > All rights reserved. This repository and its core native source code are fully open-source under the MIT License guidelines. You are officially authorized to use, fork, modify, and reference this material for academic checkouts, software engineering portfolios, and structural assignments.
+> ### 📝 Project Overview
+> This repository features a comprehensive curation of **20 distinct, structurally complex HTML table layouts** designed exclusively using pure semantic tags and traditional presentation attributes. It stands as a hands-on learning directory compiled during my undergraduate studies.
 
 ---
 # 📊 Pure HTML Table Structural Masterclass
