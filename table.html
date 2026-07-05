@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mastering HTML Tables - 20 Assignment Designs</title>
+</head>
+<body bgcolor="#f4f4f6">
+
+    <h1>HTML Table Structural Masterclass</h1>
+    <p>This repository demonstrates 20 distinct layouts using pure HTML structural table tags and attributes.</p>
+    
+    <hr size="3" color="#000">
+
+    <h3>Design 1: Complex Website Layout (Image Reference)</h3>
+    <table border="0" width="100%" cellspacing="10" cellpadding="10" bgcolor="#bcbcc4">
+        <tr height="80">
+            <td width="20%" bgcolor="#5c5cb4" align="center" valign="middle">
+                <font color="white" face="Arial"><b>HTML<br>Tutorial</b></font>
+            </td>
+            <td width="80%" bgcolor="#8484cc" align="center" valign="middle" colspan="2">
+                <font size="6" color="black" face="Arial"><b>HTML Tutorial</b></font>
+            </td>
+        </tr>
+        
+        <tr valign="top">
+            <td width="20%" bgcolor="#9494bc" align="center">
+                <p><font face="Arial"><b>Lessons</b></font></p>
+                <table width="90%" bgcolor="#ffffcc" border="1" cellpadding="5" cellspacing="0">
+                    <tr><td><a href="#">Home</a></td></tr>
+                    <tr><td><a href="#">Basic HTML</a></td></tr>
+                    <tr><td><a href="#">Essential Tags</a></td></tr>
+                    <tr><td><a href="#">Text Characteristics</a></td></tr>
+                    <tr><td><a href="#">Text Appearance</a></td></tr>
+                    <tr><td><a href="#">Color Settings</a></td></tr>
+                    <tr><td><a href="#">Creating Lists</a></td></tr>
+                    <tr><td><a href="#">Creating Tables</a></td></tr>
+                    <tr><td><a href="#">HTML Assignment</a></td></tr>
+                </table>
+            </td>
+            
+            <td width="60%" bgcolor="#d4d4dc">
+                <p align="center"><b><font face="Arial" size="4">Designed to assist new users with hand-coding a Web site</font></b></p>
+                <font face="Arial" size="3">
+                    <p>This tutorial will walk you through the steps necessary to make a basic Web site. It provides you with an understanding of the essential elements of HTML. This tutorial is designed to supply you with a basic knowledge of HTML.</p>
+                    <p>By the end of this tutorial you will have a basic knowledge of how to:</p>
+                    <ul>
+                        <li>Structure an HTML tag;</li>
+                        <li>Store an HTML page;</li>
+                        <li>Modify the appearance of your HTML text, including style and color; and</li>
+                        <li>Create lists and tables within your Web page.</li>
+                    </ul>
+                </font>
+            </td>
+            
+            <td width="20%" bgcolor="#ffffcc">
+                <p align="center"><b><font face="Arial">Notes</font></b></p>
+                <font face="Arial" size="2">
+                    <p>This site is designed to lead you on a specific path to making your Web Site. However, at any time, you can leave a page to reread a section or to look at a different area.</p>
+                </font>
+            </td>
+        </tr>
+    </table>
+
+    <hr size="2" color="#ccc">
+
+    <h3>Design 2: University Exam Timetable</h3>
+    <table border="1" width="80%" cellpadding="8" cellspacing="0" bgcolor="#ffffff">
+        <tr bgcolor="#4CAF50">
+            <th><font color="white">Day / Time</font></th>
+            <th><font color="white">9:00 AM - 11:00 AM</font></th>
+            <th><font color="white">11:00 AM - 1:00 PM</font></th>
+            <th><font color="white">1:00 PM - 2:00 PM</font></th>
+            <th><font color="white">2:00 PM - 4:00 PM</font></th>
+        </tr>
+        <tr>
+            <td bgcolor="#e8f5e9" align="center"><b>Monday</b></td>
+            <td align="center">Data Structures</td>
+            <td align="center">Database Systems</td>
+            <td rowspan="2" bgcolor="#ffeb3b" align="center"><b>L<br>U<br>N<br>C<br>H</b></td>
+            <td align="center">Web Development Lab</td>
+        </tr>
+        <tr>
+            <td bgcolor="#e8f5e9" align="center"><b>Tuesday</b></td>
+            <td colspan="2" bgcolor="#bbdefb" align="center">Cybersecurity Seminar (Guest Lecture)</td>
+            <td align="center">Discrete Math</td>
+        </tr>
+    </table>
+
+    <hr size="2" color="#ccc">
+
+    <h3>Design 3: Tech Product Spec Matrix</h3>
+    <table border="1" width="70%" cellpadding="6" cellspacing="2" bgcolor="#fafafa">
+        <tr bgcolor="#333333">
+            <th colspan="4"><font color="white">Flagship Smartphone Comparison</font></th>
+        </tr>
+        <tr bgcolor="#eeeeee">
+            <th>Feature</th>
+            <th>Model Alpha</th>
+            <th>Model Beta</th>
+            <th>Model Gamma</th>
+        </tr>
+        <tr>
+            <td bgcolor="#f0f0f0"><b>Processor</b></td>
+            <td>Octa-core 3.2GHz</td>
+            <td>Octa-core 3.0GHz</td>
+            <td>Hexa-core 3.4GHz</td>
+        </tr>
+        <tr>
+            <td bgcolor="#f0f0f0"><b>RAM / Storage</b></td>
+            <td>12GB / 256GB</td>
+            <td>8GB / 128GB</td>
+            <td>16GB / 512GB</td>
+        </tr>
+        <tr>
+            <td bgcolor="#f0f0f0"><b>Price</b></td>
+            <td><font color="green"><b>$899</b></font></td>
+            <td><font color="green"><b>$699</b></font></td>
+            <td><font color="green"><b>$1099</b></font></td>
+        </tr>
+    </table>
+
+    <hr size="2" color="#ccc">
+
+    <h3>Design 4: Quarterly Financial Report Structure</h3>
+    <table border="2" width="85%" cellpadding="8" cellspacing="0">
+        <tr bgcolor="#0d47a1">
+            <th rowspan="2"><font color="white">Year 2026</font></th>
+            <th colspan="2"><font color="white">First Half (H1)</font></th>
+            <th colspan="2"><font color="white">Second Half (H2)</font></th>
+            <th rowspan="2"><font color="white">Total Revenue</font></th>
+        </tr>
+        <tr bgcolor="#1976d2">
+            <th><font color="white">Q1</font></th>
+            <th><font color="white">Q2</font></th>
+            <th><font color="white">Q3</font></th>
+            <th><font color="white">Q4</font></th>
+        </tr>
+        <tr align="center">
+            <td align="left" bgcolor="#e3f2fd"><b>Development Dept.</b></td>
+            <td>$45,000</td>
+            <td>$52,000</td>
+            <td>$49,000</td>
+            <td>$61,000</td>
+            <td bgcolor="#bbdefb"><b>$207,000</b></td>
+        </tr>
+        <tr align="center">
+            <td align="left" bgcolor="#e3f2fd"><b>Marketing Dept.</b></td>
+            <td>$20,000</td>
+            <td>$22,000</td>
+            <td>$25,000</td>
+            <td>$30,000</td>
+            <td bgcolor="#bbdefb"><b>$97,000</b></td>
+        </tr>
+    </table>
+
+    <hr size="2" color="#ccc">
+
+    <h3>Design 5: Bill Invoice Template</h3>
+    <table border="1" width="60%" cellpadding="6" cellspacing="0" align="left" bgcolor="#ffffff">
+        <tr bgcolor="#f5f5f5"><td colspan="4" align="right"><b>Invoice #INV-2026-001</b></td></tr>
+        <tr bgcolor="#212121">
+            <th><font color="white">Item Description</font></th>
+            <th><font color="white">Qty</font></th>
+            <th><font color="white">Unit Price</font></th>
+            <th><font color="white">Amount</font></th>
+        </tr>
+        <tr>
+            <td>Full-Stack Web Domain Hosting</td>
+            <td align="center">1</td>
+            <td align="right">$120.00</td>
+            <td align="right">$120.00</td>
+        </tr>
+        <tr>
+            <td>SSL Security Certificate Activation</td>
+            <td align="center">2</td>
+            <td align="right">$15.00</td>
+            <td align="right">$30.00</td>
+        </tr>
+        <tr>
+            <td colspan="3" align="right"><b>Subtotal:</b></td>
+            <td align="right">$150.00</td>
+        </tr>
+        <tr>
+            <td colspan="3" align="right" bgcolor="#ffcdd2"><b>Tax (10%):</b></td>
+            <td align="right" bgcolor="#ffcdd2">$15.00</td>
+        </tr>
+        <tr bgcolor="#c8e6c9">
+            <td colspan="3" align="right"><b>Grand Total:</b></td>
+            <td align="right"><b>$165.00</b></td>
+        </tr>
+    </table>
+    <br><br><br><br><br><br><br><br><br><br>
+
+    <hr size="2" color="#ccc">
+
+    <br><br>
+
+    <h3>Design 6: Periodic Table Fragment Layout</h3>
+    <table border="1" cellpadding="15" cellspacing="5" align="center">
+        <tr>
+            <td bgcolor="#ff9999" align="center"><b>1</b><br>H<br><font size="1">1.008</font></td>
+            <td colspan="4" border="0"></td>
+            <td bgcolor="#99ccff" align="center"><b>2</b><br>He<br><font size="1">4.002</font></td>
+        </tr>
+        <tr>
+            <td bgcolor="#ffcc99" align="center"><b>3</b><br>Li<br><font size="1">6.94</font></td>
+            <td bgcolor="#ffff99" align="center"><b>4</b><br>Be<br><font size="1">9.012</font></td>
+            <td bgcolor="#ccff99" align="center"><b>5</b><br>B<br><font size="1">10.81</font></td>
+            <td bgcolor="#99ffff" align="center"><b>6</b><br>C<br><font size="1">12.011</font></td>
+            <td bgcolor="#99ccff" align="center"><b>7</b><br>N<br><font size="1">14.007</font></td>
+            <td bgcolor="#9999ff" align="center"><b>8</b><br>O<br><font size="1">15.999</font></td>
+        </tr>
+    </table>
+
+    <hr size="2" color="#ccc">
+
+    <h3>Design 7: Chess Board 4x4 Grid Matrix</h3>
+    <table border="1" cellspacing="0" cellpadding="20" align="center">
+        <tr>
+            <td bgcolor="#ffffff"></td><td bgcolor="#000000"></td>
+            <td bgcolor="#ffffff"></td><td bgcolor="#000000"></td>
+        </tr>
+        <tr>
+            <td bgcolor="#000000"></td><td bgcolor="#ffffff"></td>
+            <td bgcolor="#000000"></td><td bgcolor="#ffffff"></td>
+        </tr>
+        <tr>
+            <td bgcolor="#ffffff"></td><td bgcolor="#000000"></td>
+            <td bgcolor="#ffffff"></td><td bgcolor="#000000"></td>
+        </tr>
+        <tr>
+            <td bgcolor="#000000"></td><td bgcolor="#ffffff"></td>
+            <td bgcolor="#000000"></td><td bgcolor="#ffffff"></td>
+        </tr>
+    </table>
+
+    <hr size="2" color="#ccc">
+
+    <h3>Design 8: Corporate Hierarchy Flowchart</h3>
+    <table border="1" width="60%" cellspacing="0" cellpadding="10" align="center" bgcolor="#fff">
+        <tr>
+            <td colspan="4" bgcolor="#e64a19" align="center"><font color="white"><b>Chief Executive Officer (CEO)</b></font></td>
+        </tr>
+        <tr>
+            <td colspan="2" bgcolor="#f57c00" align="center"><font color="white"><b>VP of Engineering</b></font></td>
+            <td colspan="2" bgcolor="#388e3c" align="center"><font color="white"><b>VP of Marketing</b></font></td>
+        </tr>
+        <tr align="center">
+            <td bgcolor="#ffe0b2">Dev Operations</td>
+            <td bgcolor="#ffe0b2">QA Engineering</td>
+            <td bgcolor="#c8e6c9">SEO Team</td>
+            <td bgcolor="#c8e6c9">Design Studio</td>
+        </tr>
+    </table>
+
+    <hr size="2" color="#ccc">
+
+    <h3>Design 9: Weekly Fitness Meal Plan Tracker</h3>
+    <table border="1" width="75%" cellpadding="6" cellspacing="0">
+        <tr bgcolor="#00796b"><th colspan="4"><font color="white">Daily Bodybuilding Lean Muscle Menu</font></th></tr>
+        <tr bgcolor="#b2dfdb">
+            <th>Meal Timing</th>
+            <th>Proteins</th>
+            <th>Carbs</th>
+            <th>Healthy Fats</th>
+        </tr>
+        <tr>
+            <td><b>07:00 AM</b></td>
+            <td>Egg Whites (6)</td>
+            <td>Oats (100g)</td>
+            <td>Almond Butter</td>
+        </tr>
+        <tr>
+            <td><b>12:30 PM</b></td>
+            <td>Grilled Chicken Breast</td>
+            <td>Basmati Rice</td>
+            <td>Olive Oil Salad</td>
+        </tr>
+        <tr>
+            <td><b>07:30 PM</b></td>
+            <td>Salmon Fillet</td>
+            <td>Sweet Potato</td>
+            <td>Avocado slices</td>
+        </tr>
+    </table>
+
+    <hr size="2" color="#ccc">
+
+    <h3>Design 10: Movie Theater Seating Block Matrix</h3>
+    <table border="1" cellpadding="8" cellspacing="4" align="center" bgcolor="#111">
+        <tr><td colspan="7" bgcolor="#555" align="center"><font color="white"><b>STAGE / SCREEN THIS WAY</b></font></td></tr>
+        <tr align="center">
+            <td bgcolor="#ffeb3b">A1</td><td bgcolor="#ffeb3b">A2</td>
+            <td width="20" border="0" bgcolor="#111"></td>
+            <td bgcolor="#4caf50"><font color="white">A3</font></td><td bgcolor="#4caf50"><font color="white">A4</font></td><td bgcolor="#4caf50"><font color="white">A5</font></td>
+            <td width="20" border="0" bgcolor="#111"></td>
+        </tr>
+        <tr align="center">
+            <td bgcolor="#ffeb3b">B1</td><td bgcolor="#f44336"><font color="white">B2</font></td>
+            <td border="0" bgcolor="#111"></td>
+            <td bgcolor="#f44336"><font color="white">B3</font></td><td bgcolor="#4caf50"><font color="white">B4</font></td><td bgcolor="#4caf50"><font color="white">B5</font></td>
+            <td border="0" bgcolor="#111"></td>
+        </tr>
+    </table>
+
+    <hr size="2" color="#ccc">
+
+    <h3>Design 11: News Magazine Front Layout</h3>
+    <table border="1" width="90%" cellspacing="4" cellpadding="8">
+        <tr>
+            <td colspan="3" bgcolor="#b71c1c" align="center"><font color="white" size="5"><b>THE DAILY BRIEF</b></font></td>
+        </tr>
+        <tr valign="top">
+            <td width="25%" bgcolor="#fff8e1">
+                <b>Breaking News</b><hr>
+                - Cyber security breaches rise in 2026.<br><br>
+                - Tech stocks hit record high values.
+            </td>
+            <td width="50%" bgcolor="#ffffff">
+                <h2>Main Investigation Feature</h2>
+                <p>An inside look at how relational database architectures power modern cloud computing models efficiently without losing state.</p>
+            </td>
+            <td width="25%" bgcolor="#e0f2f1">
+                <b>Ad Banner Space</b><br><br>
+                <table border="1" bgcolor="#fff" width="100%"><tr><td align="center">Buy Best Coding Gear Here!</td></tr></table>
+            </td>
+        </tr>
+    </table>
+
+    <hr size="2" color="#ccc">
+
+    <h3>Design 12: Symmetric Cross Grid Matrix</h3>
+    <table border="1" width="300" height="300" cellspacing="0" cellpadding="5" align="center">
+        <tr>
+            <td bgcolor="#e0e0e0">1</td>
+            <td colspan="2" bgcolor="#9e9e9e" align="center">Span 2 Header</td>
+            <td bgcolor="#e0e0e0">4</td>
+        </tr>
+        <tr>
+            <td rowspan="2" bgcolor="#9e9e9e" valign="middle">Span 2 Left</td>
+            <td bgcolor="#ffffff">A</td>
+            <td bgcolor="#ffffff">B</td>
+            <td rowspan="2" bgcolor="#9e9e9e" valign="middle">Span 2 Right</td>
+        </tr>
+        <tr>
+            <td bgcolor="#ffffff">C</td>
+            <td bgcolor="#ffffff">D</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td colspan="2" bgcolor="#9e9e9e" align="center">Span 2 Footer</td>
+            <td>16</td>
+        </tr>
+    </table>
+
+    <hr size="2" color="#ccc">
+
+    <h3>Design 13: Technical Project Roadmap Schedule</h3>
+    <table border="1" width="85%" cellpadding="6" cellspacing="0" bgcolor="#ffffff">
+        <tr bgcolor="#3f51b5">
+            <th align="left"><font color="white">Development Phases</font></th>
+            <th><font color="white">Jan</font></th>
+            <th><font color="white">Feb</font></th>
+            <th><font color="white">Mar</font></th>
+            <th><font color="white">Apr</font></th>
+        </tr>
+        <tr>
+            <td>1. DB Schema & Architecture Design</td>
+            <td bgcolor="#2196f3" align="center"><font color="white">Active</font></td>
+            <td bgcolor="#2196f3" align="center"><font color="white">Active</font></td>
+            <td bgcolor="#e0e0e0"></td>
+            <td bgcolor="#e0e0e0"></td>
+        </tr>
+        <tr>
+            <td>2. Backend Secure API Development</td>
+            <td bgcolor="#e0e0e0"></td>
+            <td bgcolor="#2196f3" align="center"><font color="white">Active</font></td>
+            <td bgcolor="#2196f3" align="center"><font color="white">Active</font></td>
+            <td bgcolor="#e0e0e0"></td>
+        </tr>
+        <tr>
+            <td>3. Frontend Integration & Security Test</td>
+            <td bgcolor="#e0e0e0"></td>
+            <td bgcolor="#e0e0e0"></td>
+            <td bgcolor="#2196f3" align="center"><font color="white">Active</font></td>
+            <td bgcolor="#2196f3" align="center"><font color="white">Active</font></td>
+        </tr>
+    </table>
+
+    <hr size="2" color="#ccc">
+
+    <h3>Design 14: Restaurant Menu Board Matrix</h3>
+    <table border="0" width="60%" cellpadding="8" cellspacing="2" bgcolor="#263238">
+        <tr><th colspan="2" bgcolor="#1a237e"><font color="white" size="4"><b>SRI LANKAN SPICE KITCHEN</b></font></th></tr>
+        <tr>
+            <td><font color="#fff"><b>Egg Rice Combo Meal</b><br><small>Fried rice served with chili paste and gravy</small></font></td>
+            <td align="right" valign="top"><font color="#ffeb3b"><b>LKR 850</b></font></td>
+        </tr>
+        <tr>
+            <td><font color="#fff"><b>Devilled Chicken Pizza</b><br><small>Spicy chicken chunks topped with heavy mozzarella</small></font></td>
+            <td align="right" valign="top"><font color="#ffeb3b"><b>LKR 1800</b></font></td>
+        </tr>
+    </table>
+
+    <hr size="2" color="#ccc">
+
+    <h3>Design 15: University GPA Grading Breakdown</h3>
+    <table border="1" cellpadding="6" cellspacing="0" width="40%">
+        <tr bgcolor="#455a64">
+            <th><font color="white">Marks Range</font></th>
+            <th><font color="white">Grade</font></th>
+            <th><font color="white">Grade Point</font></th>
+        </tr>
+        <tr align="center">
+            <td>85 - 100</td>
+            <td bgcolor="#c8e6c9"><b>A+</b></td>
+            <td>4.00</td>
+        </tr>
+        <tr align="center">
+            <td>75 - 84</td>
+            <td bgcolor="#c8e6c9"><b>A</b></td>
+            <td>4.00</td>
+        </tr>
+        <tr align="center">
+            <td>65 - 74</td>
+            <td bgcolor="#fff9c4"><b>B</b></td>
+            <td>3.00</td>
+        </tr>
+        <tr align="center">
+            <td>00 - 44</td>
+            <td bgcolor="#ffcdd2"><b>E</b></td>
+            <td>0.00</td>
+        </tr>
+    </table>
+
+    <hr size="2" color="#ccc">
+
+    <h3>Design 16: Complex Irregular Structural Test Grid</h3>
+    <table border="2" width="50%" height="200" cellpadding="5" cellspacing="0">
+        <tr>
+            <td rowspan="3" bgcolor="#9c27b0"><font color="white">Vertical block</font></td>
+            <td colspan="2" bgcolor="#e91e63"><font color="white">Horizontal Row Banner</font></td>
+        </tr>
+        <tr>
+            <td>Block A</td>
+            <td rowspan="2" bgcolor="#00bcd4">Nester Block</td>
+        </tr>
+        <tr>
+            <td>Block B</td>
+        </tr>
+    </table>
+
+    <hr size="2" color="#ccc">
+
+    <h3>Design 17: GitHub Repository Metrics Layout</h3>
+    <table border="1" width="70%" cellpadding="8" cellspacing="0" bgcolor="#ffffff">
+        <tr bgcolor="#24292e">
+            <th align="left" colspan="3"><font color="white">Repository: fullstack-security-core</font></th>
+        </tr>
+        <tr>
+            <td><b>Forks:</b> 42</td>
+            <td><b>Stars:</b> 189</td>
+            <td><b>Open Issues:</b> 3</td>
+        </tr>
+        <tr bgcolor="#f6f8fa">
+            <td colspan="2"><b>Primary Language Stack:</b> C++, HTML, PHP</td>
+            <td><b>License:</b> MIT</td>
+        </tr>
+    </table>
+
+    <hr size="2" color="#ccc">
+
+    <h3>Design 18: Live Server Health Monitor Matrix</h3>
+    <table border="1" width="60%" cellpadding="6" cellspacing="0">
+        <tr bgcolor="#212121"><th colspan="3"><font color="white">Trinco Campus Node Monitor</font></th></tr>
+        <tr bgcolor="#eeeeee">
+            <th>Node Name</th>
+            <th>IP Address</th>
+            <th>Status State</th>
+        </tr>
+        <tr>
+            <td>Authentication Core API</td>
+            <td>192.168.1.10</td>
+            <td bgcolor="#a5d6a7" align="center"><b>ONLINE</b></td>
+        </tr>
+        <tr>
+            <td>Database Backup Cluster</td>
+            <td>192.168.1.20</td>
+            <td bgcolor="#a5d6a7" align="center"><b>ONLINE</b></td>
+        </tr>
+        <tr>
+            <td>Payment Gateway Webhook</td>
+            <td>192.168.1.99</td>
+            <td bgcolor="#ef9a9a" align="center"><b>CRITICAL/OFFLINE</b></td>
+        </tr>
+    </table>
+
+    <hr size="2" color="#ccc">
+
+    <h3>Design 19: Double Nested Interactive Table Layout</h3>
+    <table border="3" width="60%" cellpadding="10" cellspacing="0" bgcolor="#eceff1">
+        <tr>
+            <td>
+                <b>Outer Cell Content Area</b><br><br>
+                <table border="1" width="100%" bgcolor="#ffffff" cellpadding="5">
+                    <tr bgcolor="#cfd8dc"><th>Nested Header 1</th><th>Nested Header 2</th></tr>
+                    <tr><td>Internal Dataset Alpha</td><td>Internal Dataset Beta</td></tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <hr size="2" color="#ccc">
+
+    <h3>Design 20: Friends Shared Meal Expense Ledger</h3>
+    <table border="1" width="50%" cellpadding="6" cellspacing="0" bgcolor="#ffffff">
+        <tr bgcolor="#ff5722">
+            <th><font color="white">Member Name</font></th>
+            <th><font color="white">Contributed Amount</font></th>
+            <th><font color="white">Status Balance</font></th>
+        </tr>
+        <tr>
+            <td>Erusha</td>
+            <td>LKR 1500.00</td>
+            <td><font color="green">+ LKR 300.00</font></td>
+        </tr>
+        <tr>
+            <td>Dananjaya</td>
+            <td>LKR 1200.00</td>
+            <td>LKR 0.00</td>
+        </tr>
+        <tr>
+            <td>Hiroshan</td>
+            <td>LKR 900.00</td>
+            <td><font color="red">- LKR 300.00</font></td>
+        </tr>
+        <tr bgcolor="#f5f5f5">
+            <td><b>Total Consolidated Pool</b></td>
+            <td colspan="2"><b>LKR 3600.00</b></td>
+        </tr>
+    </table>
+
+</body>
+</html>
